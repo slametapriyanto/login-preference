@@ -37,6 +37,7 @@ public class RegisterActivity extends AppCompatActivity {
                     simpanFileData();
                     Intent intent = new Intent(RegisterActivity.this, LoginActivity.class);
                     startActivity(intent);
+                    finish();
                 } else  {
                     Toast.makeText(RegisterActivity.this, "Mohon Lengkapi data", Toast.LENGTH_SHORT).show();
                 }
